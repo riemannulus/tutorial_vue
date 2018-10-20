@@ -1,8 +1,10 @@
 import Vue from 'vue'
-import App from './App.vue'
+import T from './components/Tutorial'
+//import Todo from './components/TodoList'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App)
-}).$mount('#app')
+    render: h => h(T)
+}).$mount('#app') ;
+
